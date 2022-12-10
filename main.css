@@ -30,14 +30,17 @@ LIGHTER TINT: #ABD3FC
     background-image: url("./images/background.jpg");
   
     /* Full height */
-    height: 100%;
+    min-height: 400px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    background-size: cover;
   }
+
   
   /* ------------------------ */
   /* GENERAL STYLES */
@@ -80,17 +83,236 @@ LIGHTER TINT: #ABD3FC
     justify-content: flex-start;
     padding: 10px;
     background-color: #DCDCDD;
+    align-items: center;
   }
 
   .navLogo {
     flex: 0 1 auto;   
-    width: 400px;
+    width: 315px;
     position: absolute;
+    top: 15px;
     left: 50%;
   transform: translateX(-50%);
+  display: flex;
   }
 
   .menuButton {
     display: flex;
     width: 50px;
   }
+
+  /* ######################### */
+  /* People Slide on Home page */
+  /* ######################### */
+
+  .peopleSlide {
+    background-color: #000;
+    color: white;
+  }
+  .peopleSlide h1 {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .peopleSlideBackground {
+    height: 200px;
+
+    position: relative;
+  }
+
+.peopleSlideshow {
+    background-color: #000;
+    list-style: none;
+    z-index: 0;
+    
+}
+
+.peopleSlideshow li {
+    animation: imageAnimation 15s linear infinite;
+    background-size: cover;
+    background-position: 50%, 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.peopleSlideshow li:nth-child(1) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(./images/people/_1175001.jpg);
+    animation-delay: 0s;
+}
+.peopleSlideshow li:nth-child(2) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(./images/people/_1175002.jpg);
+    animation-delay: 5s;
+}
+.peopleSlideshow li:nth-child(3) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(./images/people/_1190295.jpg);
+    animation-delay: 10s;
+}
+
+@keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease;
+    }
+    10% {
+        opacity: 1;
+        animation-timing-function: ease;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+}
+
+  /* ######################### */
+  /* Pets Slide on Home page */
+  /* ######################### */
+
+  .petSlide {
+    background-color: #000;
+    color: white;
+  }
+  .petSlide h1 {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .petSlideBackground {
+    height: 200px;
+
+    position: relative;
+  }
+
+.petSlideshow {
+    background-color: #000;
+    list-style: none;
+    z-index: 0;
+    
+}
+
+.petSlideshow li {
+    animation: imageAnimation 15s linear infinite;
+    background-size: cover;
+    background-position: 50%, 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.petSlideshow li:nth-child(1) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(./images/pets/_1180831.jpg);
+    animation-delay: 1s;
+}
+.petSlideshow li:nth-child(2) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(./images/pets/_1190209.jpg);
+    animation-delay: 6s;
+}
+.petSlideshow li:nth-child(3) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(./images/pets/_1190091.jpg);
+    animation-delay: 11s;
+}
+
+@keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease;
+    }
+    10% {
+        opacity: 1;
+        animation-timing-function: ease;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+}
+
+/* ######################### */
+  /* Cars Slide on Home page */
+  /* ######################### */
+
+  .carSlide {
+    background-color: #000;
+    color: white;
+  }
+  .carSlide h1 {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .carSlideBackground {
+    height: 200px;
+
+    position: relative;
+  }
+
+.carSlideshow {
+    background-color: #000;
+    list-style: none;
+    z-index: 0;
+    
+}
+
+.carSlideshow li {
+    animation: imageAnimation 15s linear infinite;
+    background-size: cover;
+    background-position: 50%, 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.carSlideshow li:nth-child(1) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(./images/cars/_1180612.jpg);
+    animation-delay: 2s;
+}
+.carSlideshow li:nth-child(2) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(./images/cars/20200719_203310.jpg); 
+    animation-delay: 7s;
+}
+.carSlideshow li:nth-child(3) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(./images/cars/_1180614.jpg);
+    animation-delay: 12s;
+}
+
+@keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease;
+    }
+    10% {
+        opacity: 1;
+        animation-timing-function: ease;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+}
