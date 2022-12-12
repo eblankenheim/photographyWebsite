@@ -115,7 +115,7 @@ LIGHTER TINT: #ABD3FC
   }
 
   .peopleSlideBackground {
-    height: 200px;
+    height: 400px;
 
     position: relative;
   }
@@ -142,7 +142,7 @@ LIGHTER TINT: #ABD3FC
 
 .peopleSlideshow li:nth-child(1) {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url(./images/people/_1175001.jpg);
+    url(./images/people/_1190426.jpg);
     animation-delay: 0s;
 }
 .peopleSlideshow li:nth-child(2) {
@@ -187,7 +187,7 @@ LIGHTER TINT: #ABD3FC
   }
 
   .petSlideBackground {
-    height: 200px;
+    height: 400px;
 
     position: relative;
   }
@@ -259,7 +259,7 @@ LIGHTER TINT: #ABD3FC
   }
 
   .carSlideBackground {
-    height: 200px;
+    height: 400px;
 
     position: relative;
   }
