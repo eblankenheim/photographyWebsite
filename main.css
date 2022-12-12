@@ -8,11 +8,11 @@ FONT SIZE SYSTEM (px)
 
 /* 
 COLOR SYSTEM (hex)
-MAIN COLOR: #5A7FA8
-GREY COLOR: #CCD2DF
-LIGHT TEXT COLOR: #D6E1FA
-LIGHTER TINT: #ABD3FC
-#83B2D6
+ACCENT COLOR: #1985A1
+MAIN COLOR: #C5C3C6
+GREY COLOR: #4C5C68
+DARKER GREY: #46494C
+LIGHT COLOR: #DCDCDD
 */
 
 * {
@@ -53,7 +53,7 @@ LIGHTER TINT: #ABD3FC
     /* border-bottom: 16px solid #000; */
   }
   p {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.7;
   }
@@ -100,6 +100,37 @@ LIGHTER TINT: #ABD3FC
     display: flex;
     width: 50px;
   }
+  .el--half{
+    display:flex;
+    justify-content: space-between;
+    padding: 50px;
+    /* margin-bottom: 96px; */
+    align-items: center;
+    background: none;
+  }
+
+  .el--half--last {
+    margin-bottom: 96px;
+  }
+  .header-text-box {
+    line-height: 1.5;
+    padding: 20px;
+    background-color: #C5C3C6;
+    color: #46494C;
+  }
+
+  .header-text-box h2 {
+    text-align: center;
+  }
+
+  .img {
+    grid-column: 2/3;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 32px 0 rgba(0, 0, 0, 1);
+    background-color: #000;
+  }
+
 
   /* ######################### */
   /* People Slide on Home page */
@@ -141,17 +172,17 @@ LIGHTER TINT: #ABD3FC
 }
 
 .peopleSlideshow li:nth-child(1) {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
     url(./images/people/_1190426.jpg);
     animation-delay: 0s;
 }
 .peopleSlideshow li:nth-child(2) {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
     url(./images/people/_1175002.jpg);
     animation-delay: 5s;
 }
 .peopleSlideshow li:nth-child(3) {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
     url(./images/people/_1190295.jpg);
     animation-delay: 10s;
 }
@@ -213,17 +244,17 @@ LIGHTER TINT: #ABD3FC
 }
 
 .petSlideshow li:nth-child(1) {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)),
     url(./images/pets/_1180831.jpg);
     animation-delay: 1s;
 }
 .petSlideshow li:nth-child(2) {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)),
     url(./images/pets/_1190209.jpg);
     animation-delay: 6s;
 }
 .petSlideshow li:nth-child(3) {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)),
     url(./images/pets/_1190091.jpg);
     animation-delay: 11s;
 }
@@ -285,17 +316,17 @@ LIGHTER TINT: #ABD3FC
 }
 
 .carSlideshow li:nth-child(1) {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)),
     url(./images/cars/_1180612.jpg);
     animation-delay: 2s;
 }
 .carSlideshow li:nth-child(2) {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)),
     url(./images/cars/20200719_203310.jpg); 
     animation-delay: 7s;
 }
 .carSlideshow li:nth-child(3) {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)),
     url(./images/cars/_1180614.jpg);
     animation-delay: 12s;
 }
