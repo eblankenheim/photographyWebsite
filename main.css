@@ -76,40 +76,107 @@ LIGHT COLOR: #DCDCDD
     font-size: 30px;
     font-weight: 700;
   }
+  #menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 5;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 45px;
+    left: -100%;
+    width: 300px;
+    height: auto;
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+    background-color: #ECEFF1;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+    z-index: 4;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
 
-  .nav {
-    background-color: transparent;
-    display: flex;
-    justify-content: flex-start;
+  .navbar {
+    position: fixed;
+    display: grid;
+    width: 100%;
     padding: 10px;
     background-color: #DCDCDD;
-    align-items: center;
+    z-index: 5;
   }
 
   .navLogo {
-    flex: 0 1 auto;   
-    width: 315px;
-    position: absolute;
-    top: 15px;
-    left: 50%;
-  transform: translateX(-50%);
-  display: flex;
+    grid-column: 12;
+    width: 200px;
   }
 
-  .menuButton {
-    display: flex;
-    width: 50px;
-  }
   .el--half{
     display:flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 40px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     /* margin-bottom: 96px; */
     align-items: center;
     background: none;
+  }
+
+  .el--half--first{
+    padding-top: 100px;
   }
 
   .el--half--last {
@@ -157,7 +224,6 @@ LIGHT COLOR: #DCDCDD
 .peopleSlideshow {
     background-color: #000;
     list-style: none;
-    z-index: 0;
     
 }
 
