@@ -134,6 +134,7 @@ LIGHT COLOR: #DCDCDD
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
     transition-duration: .25s;
     z-index: 4;
+    text-decoration: underline;
   }
   .menu__item {
     display: block;
@@ -144,6 +145,8 @@ LIGHT COLOR: #DCDCDD
     font-weight: 600;
     text-decoration: none;
     transition-duration: .25s;
+    font-family: 'Lucida Handwriting';
+    font-style: normal;
   }
   .menu__item:hover {
     background-color: #CFD8DC;
