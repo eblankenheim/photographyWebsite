@@ -42,7 +42,7 @@ html {
 
 .parallaxTwo {
     /* The image used */
-    background-image: url("./images/people/1190299.png");
+    background-image: url("./images/backgroundTwo.jpeg");
     /* Full height */
     min-height: 400px;
     background-color: #000;
@@ -57,7 +57,7 @@ html {
 
 .parallaxThree {
     /* The image used */
-    background-image: url("./images/pets/1180642.jpg");
+    background-image: url("./images/backgroundThree.png");
     /* Full height */
     min-height: 400px;
     background-color: #000;
@@ -72,7 +72,7 @@ html {
 
 .parallaxFour {
     /* The image used */
-    background-image: url("./images/cars/1180609.jpg");
+    background-image: url("./images/backgroundFive.png");
     /* Full height */
     min-height: 400px;
     background-color: #000;
@@ -255,12 +255,14 @@ h3 {
 }
 .bioText {
     height: 400px;
-    padding: 15px;
     background-color: #46494C;
+    line-height: 1.5;
+    padding: 20px 50px 20px 50px;
     
 }
 .bioText h1 {
    text-align: center;
+   margin-bottom: 20px;
     
 }
 
@@ -276,7 +278,6 @@ h3 {
 .Services--title {
     text-align: center;
     position: relative;
-    top: 50px;
     z-index: 3;
     color: #DCDCDD;
     font-size: 96px;
@@ -284,7 +285,7 @@ h3 {
 
 .el--half {
     position: relative;
-    bottom: 70px;
+    bottom: 120px;
     display: flex;
     justify-content: space-between;
     /* padding: 40px; */
@@ -340,7 +341,7 @@ h3 {
 }
 
 .peopleSlideBackground {
-    height: 400px;
+    height: 500px;
 
     position: relative;
 }
@@ -417,7 +418,7 @@ h3 {
 }
 
 .petSlideBackground {
-    height: 400px;
+    height: 500px;
 
     position: relative;
 }
@@ -495,7 +496,7 @@ h3 {
 }
 
 .carSlideBackground {
-    height: 400px;
+    height: 500px;
 
     position: relative;
 }
