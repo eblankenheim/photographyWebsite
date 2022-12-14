@@ -313,19 +313,19 @@ h3 {
 
 .peopleSlideshow li:nth-child(1) {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-        url(./images/people/_1190426.jpg);
+        url(./images/people/1190426.jpg);
     animation-delay: 0s;
 }
 
 .peopleSlideshow li:nth-child(2) {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-        url(./images/people/_1175002.jpg);
+        url(./images/people/1175002.jpg);
     animation-delay: 5s;
 }
 
 .peopleSlideshow li:nth-child(3) {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-        url(./images/people/_1190295.jpg);
+        url(./images/people/1190413.jpg);
     animation-delay: 10s;
 }
 
@@ -391,19 +391,19 @@ h3 {
 
 .petSlideshow li:nth-child(1) {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-        url(./images/pets/_1180831.jpg);
+        url(./images/pets/1180831.jpg);
     animation-delay: 1s;
 }
 
 .petSlideshow li:nth-child(2) {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-        url(./images/pets/_1190209.jpg);
+        url(./images/pets/1190209.jpg);
     animation-delay: 6s;
 }
 
 .petSlideshow li:nth-child(3) {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-        url(./images/pets/_1190091.jpg);
+        url(./images/pets/1190091.jpg);
     animation-delay: 11s;
 }
 
@@ -469,7 +469,7 @@ h3 {
 
 .carSlideshow li:nth-child(1) {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-        url(./images/cars/_1180612.jpg);
+        url(./images/cars/1180612.jpg);
     animation-delay: 2s;
 }
 
@@ -481,7 +481,7 @@ h3 {
 
 .carSlideshow li:nth-child(3) {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-        url(./images/cars/_1180614.jpg);
+        url(./images/cars/1180614.jpg);
     animation-delay: 12s;
 }
 
