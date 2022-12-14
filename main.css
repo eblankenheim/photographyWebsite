@@ -29,10 +29,23 @@ html {
 .parallax {
     /* The image used */
     background-image: url("./images/background.jpg");
-
     /* Full height */
     min-height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+}
 
+.parallaxTwo {
+    /* The image used */
+    background-image: url("./images/backgroundTwo.png");
+    /* Full height */
+    min-height: 400px;
+    background-color: #000;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -153,7 +166,6 @@ h3 {
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
     transition-duration: .25s;
     z-index: 4;
-    text-decoration: underline;
 }
 
 .menu__item {
@@ -205,6 +217,7 @@ h3 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 200px;
 
 }
 .photoOfMe {
@@ -231,20 +244,31 @@ h3 {
 /* SLIDES SECTION START */
 /* ------------------------ */
 
+.Services--title {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    z-index: 3;
+    color: #DCDCDD;
+    font-size: 96px;
+}
+
 .el--half {
+    position: relative;
+    bottom: 70px;
     display: flex;
     justify-content: space-between;
     /* padding: 40px; */
     /* width: 80%; */
     /* margin-left: auto; */
     /* margin-right: auto; */
-    margin-bottom: 96px;
+    padding-bottom: 400px;
     align-items: center;
     background: none;
 }
 
 .el--half--first {
-    padding-top: 100px;
+    padding-top: 300px;
 }
 
 .el--half--last {
