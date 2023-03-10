@@ -11627,7 +11627,8 @@ textarea.form-control {
   height: 100%;
   left: 0;
   top: 0;
-  background: rgba(255, 255, 255, 0.1);
+  /* background: rgba(255, 255, 255, 0.2); */
+  background-color: rgba(194,246,234, 0.3);
 }
 
 .page-header.page-header-mini {
