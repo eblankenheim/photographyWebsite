@@ -11506,7 +11506,7 @@ textarea.form-control {
 }
 
 .navbar .navbar-brand img {
-  width: 70px;
+  width: 200px;
 }
 
 .pagination .page-item {
@@ -11617,7 +11617,11 @@ textarea.form-control {
   .page-header {
     max-height: 350px;
   }
+  .navbar .navbar-brand img {
+    width: 120px;
+  }
 }
+
 
 .page-header:after {
   content: '';
@@ -11627,8 +11631,7 @@ textarea.form-control {
   height: 100%;
   left: 0;
   top: 0;
-  /* background: rgba(255, 255, 255, 0.2); */
-  background-color: rgba(194,246,234, 0.3);
+  background: rgba(194,246,234, 0.15);
 }
 
 .page-header.page-header-mini {
