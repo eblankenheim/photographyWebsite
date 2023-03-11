@@ -4589,7 +4589,7 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-evenly;
 }
 
 .navbar-brand {
@@ -10967,7 +10967,7 @@ a.text-dark:hover, a.text-dark:focus {
   display: inline-block;
   color: #212529;
   margin: 0 5px;
-  font-size: 13px;
+  font-size: 30px;
 }
 
 p {
@@ -11506,7 +11506,8 @@ textarea.form-control {
 }
 
 .navbar .navbar-brand img {
-  width: 200px;
+  max-height: 80px;
+  max-width: 300px;
 }
 
 .pagination .page-item {
@@ -11608,14 +11609,14 @@ textarea.form-control {
 
 .page-header {
   position: relative;
-  background: url(../imgs/header.jpg) no-repeat center top fixed;
+  background: url(../imgs/header1.jpeg) no-repeat center top fixed;
   background-size: cover;
-  height: 450px;
+  height: 300px;
 }
 
 @media (max-width: 767.98px) {
   .page-header {
-    max-height: 350px;
+    max-height: 300px;
   }
   .navbar .navbar-brand img {
     width: 120px;
@@ -11631,7 +11632,7 @@ textarea.form-control {
   height: 100%;
   left: 0;
   top: 0;
-  background: rgba(194,246,234, 0.15);
+  background: rgba(255,255,255, 0.2);
 }
 
 .page-header.page-header-mini {
