@@ -4776,6 +4776,7 @@ input[type="button"].btn-block {
     -webkit-flex-basis: auto;
         -ms-flex-preferred-size: auto;
             flex-basis: auto;
+            justify-content: space-evenly;
   }
   .navbar-expand-md .navbar-toggler {
     display: none;
@@ -9270,7 +9271,7 @@ button.bg-dark:focus {
 
 .ml-auto,
 .mx-auto {
-  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 @media (min-width: 576px) {
@@ -10967,7 +10968,7 @@ a.text-dark:hover, a.text-dark:focus {
   display: inline-block;
   color: #212529;
   margin: 0 5px;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 p {
@@ -11492,6 +11493,7 @@ textarea.form-control {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+          gap: 20px;
 }
 
 .navbar .nav-item.dropdown .dropdown-menu {
@@ -11607,12 +11609,12 @@ textarea.form-control {
   width: 100px;
 }
 
-.page-header {
+/* .page-header {
   position: relative;
-  background: url(../imgs/header1.jpeg) no-repeat center top fixed;
+  background: url(../imgs/header2.jpeg) no-repeat center top fixed;
   background-size: cover;
-  height: 300px;
-}
+  height: 500px;
+} */
 
 @media (max-width: 767.98px) {
   .page-header {
